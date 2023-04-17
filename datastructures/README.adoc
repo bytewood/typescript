@@ -1,0 +1,14 @@
+
+[source,bash]
+----
+npm init
+npm i -g typescript @types/node ts-node nodemon --save-dev
+
+nodemon src/index.ts
+
+npm i --save-dev jasmine @types/mocha @types/jasmine
+npx jasmine init
+
+npx jasmine --config=jasmine.json
+
+----

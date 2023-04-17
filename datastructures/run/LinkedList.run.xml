@@ -1,0 +1,15 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="LinkedList" type="JavascriptTestRunnerJasmine" factoryName="JavascriptTestRunnerJasmine" nameIsGenerated="true">
+    <node-interpreter value="project" />
+    <node-options value="-r ./node_modules/ts-node/register" />
+    <working-dir value="$PROJECT_DIR$/datastructures" />
+    <jasmine-executable value="bin/jasmine.js" />
+    <scope value="SUITE" />
+    <spec-file value="$PROJECT_DIR$/datastructures/src/linkedlist.class.spec.ts" />
+    <test-names>
+      <test-name value="LinkedList" />
+    </test-names>
+    <envs />
+    <method v="2" />
+  </configuration>
+</component>

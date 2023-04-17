@@ -1,0 +1,22 @@
+{
+  "name": "datastructures",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "nodemon src/index.ts",
+    "test": "ts-node node_modules/jasmine/bin/jasmine"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jasmine": "^4.3.1",
+    "@types/jest": "^29.5.0",
+    "@types/node": "^18.15.10",
+    "jasmine": "^4.6.0",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2"
+  }
+}
